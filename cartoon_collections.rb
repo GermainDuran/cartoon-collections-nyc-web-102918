@@ -29,7 +29,8 @@ def find_the_cheese(array)
   
 cheese_types.find do |array|
   array.odd?
-  
+  if array.odd? == true
+    return 'cheese'
 end
 
  # if array.include?cheese_types == true
