@@ -1,5 +1,5 @@
-def roll_call_dwarves(dwarf_names)# code an argument here
-  # Your code here
+def roll_call_dwarves(dwarf_names)
+  
   dwarf_names.each_with_index {|item,name|
   puts dwarf_names[item]=index
  } 
