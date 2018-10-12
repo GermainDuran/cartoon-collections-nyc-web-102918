@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarf_names)
   dwarf_names.each_with_index {|item,index|
   array[item]=index
  } 
- 
+  puts array
 end
 
 
