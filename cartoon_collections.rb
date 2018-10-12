@@ -27,7 +27,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  array.include?cheese_types
+
   if array.include?cheese_types == true
     return array.first
   else
@@ -35,3 +35,10 @@ def find_the_cheese(array)
   end
   
 end
+
+
+
+[1, 3, 5, 7].find do |num|
+  num.odd?
+end
+  => 1
