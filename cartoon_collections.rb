@@ -14,7 +14,12 @@ end
 
 def long_planeteer_calls(calls)
   
-  calls.any? 
+  calls.any? do |item|
+  item.length > 4
+  
+  words.any? do |word|
+  word.length > 4
+end
   
 end
 
