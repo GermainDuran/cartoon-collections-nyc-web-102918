@@ -1,10 +1,11 @@
 def roll_call_dwarves(dwarf_names)
   index=1
  
-  dwarf_names.each do |item|
-   puts dwarf_names.index[item] + dwarf_names[item]
+  dwarf_names.each_with_index{ |item,index|
+   puts dwarf_names.index[index] + dwarf_names[item]
 
-  end
+  }
+
 
 end
 
