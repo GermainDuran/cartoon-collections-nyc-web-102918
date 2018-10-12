@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarf_names)
   
-  dwarf_names.each_with_index {|name|
+  dwarf_names.each do {|name|
   puts roll_call_dwarves[item]=index
  } 
  
